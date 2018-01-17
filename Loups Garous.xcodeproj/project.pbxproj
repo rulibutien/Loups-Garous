@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E48D58D4200FA32B00D7AAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */; };
+		E48D58D6200FA32B00D7AAAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58D5200FA32B00D7AAAE /* ViewController.swift */; };
+		E48D58D9200FA32B00D7AAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48D58D7200FA32B00D7AAAE /* Main.storyboard */; };
+		E48D58DB200FA32B00D7AAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48D58DA200FA32B00D7AAAE /* Assets.xcassets */; };
+		E48D58DE200FA32B00D7AAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48D58DC200FA32B00D7AAAE /* LaunchScreen.storyboard */; };
+		E48D58E9200FA32C00D7AAAE /* Loups_GarousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58E8200FA32C00D7AAAE /* Loups_GarousTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E48D58E5200FA32C00D7AAAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48D58C8200FA32B00D7AAAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48D58CF200FA32B00D7AAAE;
+			remoteInfo = "Loups Garous";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E48D58D0200FA32B00D7AAAE /* Loups Garous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loups Garous.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E48D58D5200FA32B00D7AAAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E48D58D8200FA32B00D7AAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E48D58DA200FA32B00D7AAAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E48D58DD200FA32B00D7AAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E48D58DF200FA32B00D7AAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48D58E4200FA32C00D7AAAE /* Loups GarousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loups GarousTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48D58E8200FA32C00D7AAAE /* Loups_GarousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loups_GarousTests.swift; sourceTree = "<group>"; };
+		E48D58EA200FA32C00D7AAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48D58CD200FA32B00D7AAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48D58E1200FA32C00D7AAAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E48D58C7200FA32B00D7AAAE = {
+			isa = PBXGroup;
+			children = (
+				E48D58D2200FA32B00D7AAAE /* Loups Garous */,
+				E48D58E7200FA32C00D7AAAE /* Loups GarousTests */,
+				E48D58D1200FA32B00D7AAAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E48D58D1200FA32B00D7AAAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48D58D0200FA32B00D7AAAE /* Loups Garous.app */,
+				E48D58E4200FA32C00D7AAAE /* Loups GarousTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48D58D2200FA32B00D7AAAE /* Loups Garous */ = {
+			isa = PBXGroup;
+			children = (
+				E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */,
+				E48D58D5200FA32B00D7AAAE /* ViewController.swift */,
+				E48D58D7200FA32B00D7AAAE /* Main.storyboard */,
+				E48D58DA200FA32B00D7AAAE /* Assets.xcassets */,
+				E48D58DC200FA32B00D7AAAE /* LaunchScreen.storyboard */,
+				E48D58DF200FA32B00D7AAAE /* Info.plist */,
+			);
+			path = "Loups Garous";
+			sourceTree = "<group>";
+		};
+		E48D58E7200FA32C00D7AAAE /* Loups GarousTests */ = {
+			isa = PBXGroup;
+			children = (
+				E48D58E8200FA32C00D7AAAE /* Loups_GarousTests.swift */,
+				E48D58EA200FA32C00D7AAAE /* Info.plist */,
+			);
+			path = "Loups GarousTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E48D58CF200FA32B00D7AAAE /* Loups Garous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48D58ED200FA32C00D7AAAE /* Build configuration list for PBXNativeTarget "Loups Garous" */;
+			buildPhases = (
+				E48D58CC200FA32B00D7AAAE /* Sources */,
+				E48D58CD200FA32B00D7AAAE /* Frameworks */,
+				E48D58CE200FA32B00D7AAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loups Garous";
+			productName = "Loups Garous";
+			productReference = E48D58D0200FA32B00D7AAAE /* Loups Garous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E48D58E3200FA32C00D7AAAE /* Loups GarousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48D58F0200FA32C00D7AAAE /* Build configuration list for PBXNativeTarget "Loups GarousTests" */;
+			buildPhases = (
+				E48D58E0200FA32C00D7AAAE /* Sources */,
+				E48D58E1200FA32C00D7AAAE /* Frameworks */,
+				E48D58E2200FA32C00D7AAAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48D58E6200FA32C00D7AAAE /* PBXTargetDependency */,
+			);
+			name = "Loups GarousTests";
+			productName = "Loups GarousTests";
+			productReference = E48D58E4200FA32C00D7AAAE /* Loups GarousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E48D58C8200FA32B00D7AAAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Théo Liberman";
+				TargetAttributes = {
+					E48D58CF200FA32B00D7AAAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E48D58E3200FA32C00D7AAAE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E48D58CF200FA32B00D7AAAE;
+					};
+				};
+			};
+			buildConfigurationList = E48D58CB200FA32B00D7AAAE /* Build configuration list for PBXProject "Loups Garous" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E48D58C7200FA32B00D7AAAE;
+			productRefGroup = E48D58D1200FA32B00D7AAAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E48D58CF200FA32B00D7AAAE /* Loups Garous */,
+				E48D58E3200FA32C00D7AAAE /* Loups GarousTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E48D58CE200FA32B00D7AAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48D58DE200FA32B00D7AAAE /* LaunchScreen.storyboard in Resources */,
+				E48D58DB200FA32B00D7AAAE /* Assets.xcassets in Resources */,
+				E48D58D9200FA32B00D7AAAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48D58E2200FA32C00D7AAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E48D58CC200FA32B00D7AAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48D58D6200FA32B00D7AAAE /* ViewController.swift in Sources */,
+				E48D58D4200FA32B00D7AAAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48D58E0200FA32C00D7AAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48D58E9200FA32C00D7AAAE /* Loups_GarousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E48D58E6200FA32C00D7AAAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48D58CF200FA32B00D7AAAE /* Loups Garous */;
+			targetProxy = E48D58E5200FA32C00D7AAAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E48D58D7200FA32B00D7AAAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48D58D8200FA32B00D7AAAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E48D58DC200FA32B00D7AAAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48D58DD200FA32B00D7AAAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E48D58EB200FA32C00D7AAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E48D58EC200FA32C00D7AAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E48D58EE200FA32C00D7AAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZGC84E3B8;
+				INFOPLIST_FILE = "Loups Garous/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.theoliberman.Loups-Garous";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E48D58EF200FA32C00D7AAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZGC84E3B8;
+				INFOPLIST_FILE = "Loups Garous/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.theoliberman.Loups-Garous";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E48D58F1200FA32C00D7AAAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZGC84E3B8;
+				INFOPLIST_FILE = "Loups GarousTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.theoliberman.Loups-GarousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loups Garous.app/Loups Garous";
+			};
+			name = Debug;
+		};
+		E48D58F2200FA32C00D7AAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XZGC84E3B8;
+				INFOPLIST_FILE = "Loups GarousTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.theoliberman.Loups-GarousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loups Garous.app/Loups Garous";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E48D58CB200FA32B00D7AAAE /* Build configuration list for PBXProject "Loups Garous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48D58EB200FA32C00D7AAAE /* Debug */,
+				E48D58EC200FA32C00D7AAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48D58ED200FA32C00D7AAAE /* Build configuration list for PBXNativeTarget "Loups Garous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48D58EE200FA32C00D7AAAE /* Debug */,
+				E48D58EF200FA32C00D7AAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48D58F0200FA32C00D7AAAE /* Build configuration list for PBXNativeTarget "Loups GarousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48D58F1200FA32C00D7AAAE /* Debug */,
+				E48D58F2200FA32C00D7AAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E48D58C8200FA32B00D7AAAE /* Project object */;
+}
