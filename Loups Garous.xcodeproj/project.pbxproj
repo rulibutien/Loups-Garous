@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E47939A1200FAFD900673373 /* PlayerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47939A0200FAFD900673373 /* PlayerTestCase.swift */; };
+		E47939A3200FB1CB00673373 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47939A2200FB1CB00673373 /* Player.swift */; };
 		E48D58D4200FA32B00D7AAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */; };
 		E48D58D6200FA32B00D7AAAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58D5200FA32B00D7AAAE /* ViewController.swift */; };
 		E48D58D9200FA32B00D7AAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48D58D7200FA32B00D7AAAE /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E47939A0200FAFD900673373 /* PlayerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTestCase.swift; sourceTree = "<group>"; };
+		E47939A2200FB1CB00673373 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E48D58D0200FA32B00D7AAAE /* Loups Garous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loups Garous.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48D58D5200FA32B00D7AAAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				E48D58EA200FA32C00D7AAAE /* Info.plist */,
+				E47939A0200FAFD900673373 /* PlayerTestCase.swift */,
 			);
 			path = "Loups GarousTests";
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 		E48D58F5200FA3F000D7AAAE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E47939A2200FB1CB00673373 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48D58D6200FA32B00D7AAAE /* ViewController.swift in Sources */,
+				E47939A3200FB1CB00673373 /* Player.swift in Sources */,
 				E48D58D4200FA32B00D7AAAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47939A1200FAFD900673373 /* PlayerTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
