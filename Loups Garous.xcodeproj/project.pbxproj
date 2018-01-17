@@ -12,7 +12,6 @@
 		E48D58D9200FA32B00D7AAAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48D58D7200FA32B00D7AAAE /* Main.storyboard */; };
 		E48D58DB200FA32B00D7AAAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48D58DA200FA32B00D7AAAE /* Assets.xcassets */; };
 		E48D58DE200FA32B00D7AAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48D58DC200FA32B00D7AAAE /* LaunchScreen.storyboard */; };
-		E48D58E9200FA32C00D7AAAE /* Loups_GarousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58E8200FA32C00D7AAAE /* Loups_GarousTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +33,6 @@
 		E48D58DD200FA32B00D7AAAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48D58DF200FA32B00D7AAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E48D58E4200FA32C00D7AAAE /* Loups GarousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loups GarousTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E48D58E8200FA32C00D7AAAE /* Loups_GarousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loups_GarousTests.swift; sourceTree = "<group>"; };
 		E48D58EA200FA32C00D7AAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,12 +75,10 @@
 		E48D58D2200FA32B00D7AAAE /* Loups Garous */ = {
 			isa = PBXGroup;
 			children = (
-				E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */,
-				E48D58D5200FA32B00D7AAAE /* ViewController.swift */,
-				E48D58D7200FA32B00D7AAAE /* Main.storyboard */,
-				E48D58DA200FA32B00D7AAAE /* Assets.xcassets */,
-				E48D58DC200FA32B00D7AAAE /* LaunchScreen.storyboard */,
-				E48D58DF200FA32B00D7AAAE /* Info.plist */,
+				E48D58FA200FA42900D7AAAE /* Supporting Files */,
+				E48D58F7200FA3FF00D7AAAE /* Controller */,
+				E48D58F6200FA3F700D7AAAE /* View */,
+				E48D58F5200FA3F000D7AAAE /* Model */,
 			);
 			path = "Loups Garous";
 			sourceTree = "<group>";
@@ -90,10 +86,43 @@
 		E48D58E7200FA32C00D7AAAE /* Loups GarousTests */ = {
 			isa = PBXGroup;
 			children = (
-				E48D58E8200FA32C00D7AAAE /* Loups_GarousTests.swift */,
 				E48D58EA200FA32C00D7AAAE /* Info.plist */,
 			);
 			path = "Loups GarousTests";
+			sourceTree = "<group>";
+		};
+		E48D58F5200FA3F000D7AAAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E48D58F6200FA3F700D7AAAE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E48D58D7200FA32B00D7AAAE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E48D58F7200FA3FF00D7AAAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E48D58D5200FA32B00D7AAAE /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E48D58FA200FA42900D7AAAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */,
+				E48D58DA200FA32B00D7AAAE /* Assets.xcassets */,
+				E48D58DC200FA32B00D7AAAE /* LaunchScreen.storyboard */,
+				E48D58DF200FA32B00D7AAAE /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +135,7 @@
 				E48D58CC200FA32B00D7AAAE /* Sources */,
 				E48D58CD200FA32B00D7AAAE /* Frameworks */,
 				E48D58CE200FA32B00D7AAAE /* Resources */,
+				E48D58F3200FA33700D7AAAE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,6 +224,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E48D58F3200FA33700D7AAAE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E48D58CC200FA32B00D7AAAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48D58E9200FA32C00D7AAAE /* Loups_GarousTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
