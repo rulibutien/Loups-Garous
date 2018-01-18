@@ -24,6 +24,12 @@ class PlayerTestCase: XCTestCase {
         XCTAssertFalse(player.inLove())
     }
 
+    func testGivenPlayer_WhenSettingName_ThenPlayersNameHasChanged() {
+        player.setName("New Name")
+
+        XCTAssertEqual(player.getName(), "New Name")
+    }
+
     func testGivenNameAndRole_WhenCreatingPlayer_ThenPlayersNameIsGivenNameAndRoleIsGivenRole() {
         let name = "name"
         let role: Role = .wolf

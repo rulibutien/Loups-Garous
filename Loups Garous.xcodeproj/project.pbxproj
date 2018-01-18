@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E41248892010BF2B0016D8EB /* CardSelectorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41248882010BF2B0016D8EB /* CardSelectorTestCase.swift */; };
+		E412488B2010BFDC0016D8EB /* CardSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412488A2010BFDC0016D8EB /* CardSelector.swift */; };
+		E412488D2010CE4D0016D8EB /* PlayerSelectorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412488C2010CE4D0016D8EB /* PlayerSelectorTestCase.swift */; };
+		E412488F2010CF8F0016D8EB /* PlayerSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E412488E2010CF8F0016D8EB /* PlayerSelector.swift */; };
 		E47939A1200FAFD900673373 /* PlayerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47939A0200FAFD900673373 /* PlayerTestCase.swift */; };
 		E47939A3200FB1CB00673373 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47939A2200FB1CB00673373 /* Player.swift */; };
 		E48D58D4200FA32B00D7AAAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48D58D3200FA32B00D7AAAE /* AppDelegate.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E41248882010BF2B0016D8EB /* CardSelectorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectorTestCase.swift; sourceTree = "<group>"; };
+		E412488A2010BFDC0016D8EB /* CardSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelector.swift; sourceTree = "<group>"; };
+		E412488C2010CE4D0016D8EB /* PlayerSelectorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelectorTestCase.swift; sourceTree = "<group>"; };
+		E412488E2010CF8F0016D8EB /* PlayerSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSelector.swift; sourceTree = "<group>"; };
 		E47939A0200FAFD900673373 /* PlayerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTestCase.swift; sourceTree = "<group>"; };
 		E47939A2200FB1CB00673373 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E48D58D0200FA32B00D7AAAE /* Loups Garous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loups Garous.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +100,8 @@
 			children = (
 				E48D58EA200FA32C00D7AAAE /* Info.plist */,
 				E47939A0200FAFD900673373 /* PlayerTestCase.swift */,
+				E41248882010BF2B0016D8EB /* CardSelectorTestCase.swift */,
+				E412488C2010CE4D0016D8EB /* PlayerSelectorTestCase.swift */,
 			);
 			path = "Loups GarousTests";
 			sourceTree = "<group>";
@@ -100,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				E47939A2200FB1CB00673373 /* Player.swift */,
+				E412488E2010CF8F0016D8EB /* PlayerSelector.swift */,
+				E412488A2010BFDC0016D8EB /* CardSelector.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -252,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E412488B2010BFDC0016D8EB /* CardSelector.swift in Sources */,
 				E48D58D6200FA32B00D7AAAE /* ViewController.swift in Sources */,
 				E47939A3200FB1CB00673373 /* Player.swift in Sources */,
+				E412488F2010CF8F0016D8EB /* PlayerSelector.swift in Sources */,
 				E48D58D4200FA32B00D7AAAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41248892010BF2B0016D8EB /* CardSelectorTestCase.swift in Sources */,
 				E47939A1200FAFD900673373 /* PlayerTestCase.swift in Sources */,
+				E412488D2010CE4D0016D8EB /* PlayerSelectorTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
