@@ -34,13 +34,15 @@ class PlayerTestCase: XCTestCase {
         XCTAssertEqual(p.getRole(), role)
     }
 
-    func testGivenPlayer_WhenFallingInLoveWithOtherPlayer_ThenBothPlayersAreInLove() {
+    func testGivenPlayer_WhenFallingInLoveWithOtherPlayer_ThenBothPlayersAreInLoveAndNobodyElse() {
         let p = Player(name: "OtherPlayer")
+        let q = Player(name: "LastPlayer")
 
         player.fallInLove(with: p)
 
         XCTAssertTrue(player.inLove())
         XCTAssertTrue(p.inLove())
+        XCTAssertFalse(q.inLove())
     }
 
     func testGivenPlayer_WhenKillingPlayer_ThenPlayerIsNotAlive() {

@@ -52,5 +52,5 @@ class Player {
 }
 
 enum Role: String {
-    case villager, wolf
+    case villager, wolf, medium, witch, cupid, hunter
 }
